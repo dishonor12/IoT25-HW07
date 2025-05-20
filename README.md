@@ -21,8 +21,11 @@ https://github.com/user-attachments/assets/cd8c28d6-152f-45f2-a96b-11dc7a21df92
 # Explaination
 ## Client Summary:
 Wifi.begin() for WiFi connection
+
 WiFiClient to handle the TCP connection
+
 client.print() or client.write() to send message
+
 Delay or timer for periodic data sending
 
 ## Server Summary:
