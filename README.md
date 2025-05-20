@@ -30,14 +30,23 @@ Delay or timer for periodic data sending
 
 ## Server Summary:
 WiFiServer.begin() to start listening
+
 server.available() to accept clients
+
 client.read() or client.readStringUntil() to receive data
+
 Feedback sent using client.print() or client.write()
 
 ## Test Case
 Client connects to WiFi -> SSID and password correctly set (Success)
+
 Client connects to server IP:Port -> Ensure same subnet and open port (Depends on network)
+
 Client sends data -> Verified by Serial Monitor (Success)
+
 Server receives data -> Output shows data received correctly (Success)
+
 Server sends response -> Clients logs confirm receipt of data (Success)
+
 Connection handling -> Graceful handling of dropped connections (Needs improvement)
+
